@@ -76,6 +76,9 @@
 # print(bool(None))
 # print(False == None)
 # print(bool('') == bool(None))
+# The Q is does it have a value ?
+# bool('') ---> False
+# bool('Test') ---> True
 
 # Example:
 # > 12.5
@@ -97,6 +100,7 @@
 # print(2 ** 3)
 # print(10 % 3)
 # print(10 // 3) # Floor division
+# 3.3333333333333335 ---> 3
 
 # Assignment Operator: = += -= *= /=
 # x = 5
@@ -151,9 +155,9 @@
 # print("ali" * 3)
 
 # case:
-# msgToSina => Camel Case
-# MsgToSina => Pascal Case
-# msg_to_sina => Snake Sase
+# msgToSina => camelCase
+# MsgToSina => PascalCase
+# msg_to_sina => snake_case
 
 # print("ALIREZA".lower())
 # print("ALIREZA".upper())
@@ -163,12 +167,14 @@
 # print("ALIREZA".split(sep="L"))  # list
 # print("ALIREZA".islower())
 # print("ALIREZA".isupper())
-# print("123123".isnumeric())
-# print("123123".isnumeric())
-# print("123123".isdecimal())
-# print("۱۲۳۴۴۵۴".isdecimal())
-# print("123123".isdigit())
-# print("123123".isdigit())
+
+# print("123123".isnumeric()) True
+# print("123123".isnumeric()) True
+# print("123123".isdecimal()) True
+# print("۱۲۳۴۴۵۴".isdecimal()) True
+# print("123123".isdigit()) True
+# print("123123".isdigit()) True
+
 # print("salam chetory".startswith('salam'))
 # print("salam chetory".endswith('salam'))
 
@@ -217,7 +223,7 @@
 # numbers.pop
 # numbers.remove
 
-print(numbers)
+# print(numbers)
 
 # while
 # for
