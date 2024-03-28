@@ -76,9 +76,7 @@
 # print(bool(None))
 # print(False == None)
 # print(bool('') == bool(None))
-# The Q is does it have a value ?
-# bool('') ---> False
-# bool('Test') ---> True
+
 
 # Example:
 # > 12.5
