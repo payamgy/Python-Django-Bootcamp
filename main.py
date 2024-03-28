@@ -41,7 +41,7 @@
 #     print("The length of list is not a multiple of 3")
 
 
-# Question  number 8 - Way 1
+# Question  number 8 - Way 1(Wrong)
 #
 # user_start_input = int(input("start: "))
 # user_finish_input = int(input("finish: "))
@@ -49,17 +49,16 @@
 #
 # def prime_checker(number):
 #     for n in range(2, number + 1):
-#         isprime = True
 #         for i in range(2, n - 1):
 #             if n % i == 0:
-#                 isprime = False
-#         if isprime:
-#             return n
-#
-#
+#                 return False
+#         else:
+#             return True
+
+
+# print(prime_checker(20))
 # prime_checker(number=user_finish_input)
-# list1 = list(filter(prime_checker, range(user_start_input, user_finish_input)))
-# print(list1)
+# print(list(filter(prime_checker, range(user_start_input, user_finish_input))))
 
 # Question  number 8 - Way 2
 # number1, number2 = map(int, input("Enter number1 and number2 seperated by a space: ").split())
@@ -68,3 +67,16 @@
 # print(list1)
 
 
+# Question  number 9
+
+# import datetime
+
+# name = input("please enter a name : ")
+# year = int(input("please enter a year : "))
+
+# def calc_age(year1):
+#     now = datetime.datetime.now().year
+#     return now - year1
+
+# age = calc_age(year)
+# print(f"Hello, {name}! You are {age} years old.")
