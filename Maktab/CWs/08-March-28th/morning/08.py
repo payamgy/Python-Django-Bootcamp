@@ -56,6 +56,21 @@
 #             return True
 
 
+# *** edited by Payam for "Question 8 with 'Filter' solution" ***
+# def prime_checker(number):
+#     for i in range(2, number):
+#         if number % i == 0:
+#             return False
+#     else:
+#         return True
+#
+#
+# start_num = int(input("start: "))
+# finish_num = int(input("finish: "))
+#
+# print(list(filter(prime_checker, range(start_num, finish_num))))
+
+
 # print(prime_checker(20))
 # prime_checker(number=user_finish_input)
 # print(list(filter(prime_checker, range(user_start_input, user_finish_input))))
